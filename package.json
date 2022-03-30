@@ -11,13 +11,14 @@
     "client": "npm start --prefix client",
     "watch": "concurrently 'npm:server'  'npm:client' ",
     "deploy": "npm run build --prefix client && npm start --prefix server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test --prefix server && npm test --prefix client"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^7.0.0"
+    "concurrently": "^7.0.0",
+    "jest": "^27.5.1"
   },
   "dependencies": {
     "morgan": "^1.10.0"
