@@ -5,7 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "watch": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test-watch": "jest --watch",
     "start": "set PORT=8000&& node src/server.js"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "express": "^4.17.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
   }
 }
