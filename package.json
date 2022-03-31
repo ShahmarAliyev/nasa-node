@@ -21,6 +21,8 @@
     "jest": "^27.5.1"
   },
   "dependencies": {
+    "csv-parse": "^5.0.4",
+    "csv-parser": "^3.0.0",
     "morgan": "^1.10.0"
   }
 }

@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8000;
 async function startServer() {
   await loadPlanetsData();
   server.listen(PORT, () => {
-    console.log("Listening to port 8000");
+    console.log("Server started at PORT 8000");
   });
 }
 
