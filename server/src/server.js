@@ -12,7 +12,7 @@ async function startServer() {
   await mongoConnect();
   await loadPlanetsData();
   server.listen(PORT, () => {
-    console.log("Server started at PORT 8000");
+    console.log("Server started at PORT N 8000");
   });
 }
 
