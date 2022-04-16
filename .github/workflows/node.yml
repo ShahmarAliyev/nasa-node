@@ -1,9 +1,9 @@
 name: NASA Project CI
 on:
   push:
-    branches: [master]
+    branches: [NasaProject]
   pull_request:
-    branches: [master]
+    branches: [NasaProject]
 jobs:
   build:
     env:
