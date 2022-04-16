@@ -16,7 +16,7 @@ async function startServer() {
   await loadLaunchData();
 
   server.listen(PORT, () => {
-    console.log("Server started at PORT N 8000");
+    console.log("Server started at PORT Number 8000");
   });
 }
 
