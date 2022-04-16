@@ -9,7 +9,7 @@ describe("Launches API", () => {
     await loadPlanetsData();
   });
   afterAll(async () => {
-    await mongoDisconnect;
+    await mongoDisconnect();
   });
 
   describe("Test Get /launches", () => {
