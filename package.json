@@ -24,7 +24,6 @@
     "axios": "^0.26.1",
     "csv-parse": "^5.0.4",
     "csv-parser": "^3.0.0",
-    "mongoose": "^6.2.9",
-    "morgan": "^1.10.0"
+    "mongoose": "^6.2.9"
   }
 }
