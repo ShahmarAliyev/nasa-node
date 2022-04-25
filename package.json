@@ -1,7 +1,7 @@
 {
   "name": "nasa",
   "version": "1.0.0",
-  "description": "",
+  "description": "NODE JS APPLICATION  BUILD WITH EXPRESS",
   "main": "index.js",
   "scripts": {
     "install-server": "npm install --prefix server",
@@ -24,6 +24,15 @@
     "axios": "^0.26.1",
     "csv-parse": "^5.0.4",
     "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
     "mongoose": "^6.2.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahmarAliyev/nasa-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShahmarAliyev/nasa-node/issues"
+  },
+  "homepage": "https://github.com/ShahmarAliyev/nasa-node#readme"
 }
